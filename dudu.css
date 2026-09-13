@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+.greenbackground {
+    background-color: #397d09;
+    color:#e9fcdc;
+    font-family: Didot, serif;
+    padding: 1% 4% 1% 4%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    mask-image: linear-gradient(to top, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to top, black 60%, transparent 100%);
+    transition: filter 3s ease;
+    filter: blur(10px)
+
+}
+img:hover {
+    filter: blur(0px);
+}
+.titles{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text{
+    font-size: medium;
+}
+.animal {
+    background-color: #397d09;
+    border: 0px;
+    overflow: hidden;
+}
